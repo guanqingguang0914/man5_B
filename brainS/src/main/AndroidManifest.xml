@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.abilix.brain">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false"/>
+
+    <!--
+    <uses-permission android:name="android.hardware.camera.front" />
+    <uses-permission android:name="android.hardware.camera.front.autofocus" />
+    -->
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+    <!--
+     	<uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.hardware.camera.front" />
+    <uses-permission android:name="android.hardware.camera.front.autofocus" />
+    -->
+
+    <application
+        android:name="com.abilix.brain.Application"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        tools:replace="icon,label,theme"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+        >
+        <!--  
+        <activity
+            android:name="com.abilix.brain.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.abilix.brain.BrainActivity"
+
+            android:label="@string/app_name"
+            android:configChanges="locale"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:host="brain"
+                    android:scheme="abilix"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abilix.brain.fragment.ManageFragment"
+            android:hardwareAccelerated="false"/>
+        <activity
+            android:name="com.abilix.brain.MultimediaActivity"
+            android:hardwareAccelerated="false"/>
+
+        <activity
+            android:name="com.abilix.brain.m.FutureScienceActivity"
+            android:launchMode="singleTask"
+            android:hardwareAccelerated="false"/>
+
+        <activity
+            android:name="com.abilix.brain.m.FutureCoolPlayActivity"
+            android:launchMode="singleTask"
+            android:hardwareAccelerated="false"/>
+
+        <activity
+            android:name="com.abilix.brain.m.TrainingActivity"
+            android:launchMode="singleTask"
+            android:hardwareAccelerated="false"/>
+
+        <activity
+            android:name="com.abilix.explainer.view.MainActivity"
+
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.notAnimation"
+            android:hardwareAccelerated="false"/>
+
+
+        <service android:name="com.abilix.brain.BrainService">
+            <intent-filter>
+                <action android:name="com.abilix.brain.aidl.IBrain"/>
+            </intent-filter>
+        </service>
+        <!-- usb -->
+        <service
+            android:name="com.abilix.usbcamera.service.UVCService"
+            android:process=":uvcservice">
+            <intent-filter>
+                <action android:name="com.abilix.usbcamera.IUVCService"/>
+                <action android:name="com.abilix.usbcamera.IUVCSlaveService"/>
+            </intent-filter>
+        </service>
+
+        <!--<receiver android:name="com.abilix.brain.utils.WifiStateChangeReceiver">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="android.net.wifi.WIFI_STATE_CHANGED" />-->
+        <!--<action android:name="android.net.wifi.STATE_CHANGE" />-->
+        <!--<action android:name="android.intent.action.ACTION_SHUTDOWN" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <receiver android:name="com.abilix.brain.utils.InstallReceiver">
+            <intent-filter>
+                <action android:name="com.grandar.installservice.installComplete"/>
+                <action android:name="com.grandar.installservice.installError"/>
+                <action android:name="com.abilix.change_log_status"/>
+                <action android:name="com.grandar.updateonlinetest.updateOperationState" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.abilix.brain.data.BrainDatabaseProvider"
+            android:authorities="com.abilix.brain.provider"
+            android:exported="true"></provider>
+
+        <!-- <meta-data android:value="58c8e049c895760847000648" android:name="UMENG_APPKEY"/> 
+		<meta-data android:value="Abilix Brain" android:name="UMENG_CHANNEL"/>  -->
+
+    </application>
+
+</manifest>

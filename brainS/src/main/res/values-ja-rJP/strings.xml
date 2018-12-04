@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="wenjianchangducuowu">長さのエラー</string>
+    <string name="app_name">Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="rest">リセット</string>
+    <string name="programming">プログラミング中</string>
+    <string name="telecontrol">テレコントロール</string>
+    <string name="soul">Soul</string>
+    <string name="delete">ページを削除します</string>
+    <string name="determine">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="record_page">レコーダー</string>
+    <string name="ls_record">録画中</string>
+    <string name="record_success">完了</string>
+    <string name="record_play">再生中</string>
+    <string name="record_play_success">再生の記録が完了しました!</string>
+    <string name="xiazaishibai">ダウンロードに失敗しました</string>
+    <string name="xiazaichenggong">ダウンロードが完了しました</string>
+    <string name="anzhuangchenggong">正常にインストールしました!</string>
+    <string name="tishi">プロンプト</string>
+    <string name="shezhibrain">設定を入力 -> 私について -> 親モードをオフ. </string>
+    <string name="wifi_stop">ルーター接続の接続を解除しホットスポットを作成しますか?</string>
+    <string name="shi">はい</string>
+    <string name="fou">いいえ</string>
+    <string name="queren">OK</string>
+    <string name="luyin">録画</string>
+    <string name="zhaopian">写真</string>
+    <string name="huanjingcaiji">環境収集</string>
+    <string name="shifouhuanjingcaiji">環境変数を再度収集しますか?</string>
+    <string name="huanjingcaiji_duizhunheixian">すべてのグレースケールのセンサーを黒色のラインに置き、「はい」を押して黒色のラインのデータを収集します</string>
+    <string name="huanjingcaiji_duizhunbaise">すべてのグレースケールのセンサーを白色の背景に置き、「はい」を押して背景のデータを収集します</string>
+    <string name="huiduzhi">グレースケールの値</string>
+    <string name="pinghengche">バランスカー</string>
+    <string name="pinghengchezhengzai">バランスカーはバランスを調整中です…</string>
+    <string name="pinghengchenggong">成功</string>
+    <string name="pinghengshibai">失敗</string>
+    <string name="shexiangtou">カメラ</string>
+    <string name="shexiangtoushifouchahao">カメラが正常に接続されているかどうかを確認してください。</string>
+    <string name="shexiangtouzhengzai">カメラを開いています…</string>
+    <string name="zhinanzhenjiaozhun">コンパスを較正します</string>
+    <string name="zhinanzhenbazi">ロボットを回転させて、コンパスを較正してください!</string>
+    <string name="zhinanzhenwancheng">コンパスの較正は完了しましたか?</string>
+    <string name="shengjigujian">ファームウェアをアップグレードします</string>
+    <string name="shengjigujian_stm32">最新のファームウェアSTM32をアップグレードします</string>
+    <string name="m_robot_blocked">ブロックされています、どこか別のところに置いてください。</string>
+    <string name="back">戻る</string>
+    <string name="wu_luyin">記録なし</string>
+    <string name="wu_zhaopian">写真なし</string>
+    <string name="wu_skillplay">スキルなし</string>
+    <string name="skill_play">スキル</string>
+    <string name="duomeiti">マルチメディア</string>
+    <string name="activate">Activate</string>
+    <string name="protect">Protect</string>
+    <string name="zhinanzhenxuanzhuan">The robot will turn around and calibrates the compass!</string>
+
+    <string name="groupcontrol">GroupControl</string>
+    <string name="reset">Reset</string>
+    <string name="Group_ID_Set">Group ID Set</string>
+    <string name="groupID">Group ID</string>
+    <string name="confirm_group">Please confirm group ID</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_single_button_dialog"
+    android:layout_width="300dp"
+    android:layout_height="240dp"
+    android:background="@drawable/button_dialog_background_c">
+
+    <TextView
+        android:id="@+id/tv_single_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="15dp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_single_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:singleLine="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_single_dialog_message"
+        android:layout_width="260dp"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:layout_below="@id/tv_single_dialog_title"
+        android:layout_above="@id/btn_single_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="18dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

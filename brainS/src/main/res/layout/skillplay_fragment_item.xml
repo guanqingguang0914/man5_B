@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/skillplay_imageview_h"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+
+        android:src="@drawable/main_bg" />
+
+    <ImageView
+        android:id="@+id/skillplay_imageview_qr"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/skillplay_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+</FrameLayout>

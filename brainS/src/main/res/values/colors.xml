@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="BLACK">#ff000000</color>
+    <color name="WHITE">#ffffffff</color>
+    <color name="rippelColor">#ff7200</color>
+    <color name="white">#ffffff</color>
+    <color name="white_ff">#00ffffff</color>
+    <color name="black">#000000</color>
+    <color name="tiao_button">#5e5e5e</color>
+    <color name="reveal_color">#664d5a6b</color>
+
+    <!-- App的背景颜色 -->
+    <color name="bg_gray">#EEEEEE</color>
+    <!-- 默认按钮的bg -->
+    <color name="bg_btn_gray">#E8E8E8</color>
+    <!-- 点击后 -->
+    <color name="bg_btn_gray_slted">#CECECE</color>
+    <!-- wifi 列表item 点击颜色bg -->
+    <color name="bg_item_slted">#E5E5E5</color>
+
+    <!-- 字体为橙色 -->
+    <color name="font_orange">#FF3C00</color>
+
+    <!-- 连接中 -->
+
+    <color name="lightblack">#ff202020</color>
+    <color name="ziti_c">#79f2e2</color>
+    <color name="ziti_m">#fb7a86</color>
+    <color name="ziti_h">#80efff</color>
+    <color name="ziti_f">#ffffff</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="wenjianchangducuowu">Längenfehler</string>
+    <string name="app_name">Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="rest">Pause</string>
+    <string name="programming">Programmieren</string>
+    <string name="telecontrol">Fernsteuerung</string>
+    <string name="soul">Soul</string>
+    <string name="delete">Seite löschen</string>
+    <string name="determine">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="record_page">Rekorder</string>
+    <string name="ls_record">Aufnahme</string>
+    <string name="record_success">Fertig</string>
+    <string name="record_play">Wiedergabe</string>
+    <string name="record_play_success">Wiedergabe der Aufnahme abgeschlossen!</string>
+    <string name="xiazaishibai">Download fehlgeschlagen</string>
+    <string name="xiazaichenggong">Download abgeschlossen</string>
+    <string name="anzhuangchenggong">Installation erfolgreich</string>
+    <string name="tishi">Eingabeaufforderung</string>
+    <string name="shezhibrain">Öffnen Sie „Einstellungen > Über mich > Eltern-Modus ausschalten“</string>
+    <string name="wifi_stop">Soll die Router-Verbindung getrennt und ein Hotspot erstellt werden?</string>
+    <string name="shi">Ja</string>
+    <string name="fou">Nein</string>
+    <string name="queren">OK</string>
+    <string name="luyin">Aufnahme</string>
+    <string name="zhaopian">Foto</string>
+    <string name="huanjingcaiji">Erfassung von Umgebungsvariablen</string>
+    <string name="shifouhuanjingcaiji">Sollen die Umgebungsvariablen erneut erfasst werden?</string>
+    <string name="huanjingcaiji_duizhunheixian">Richten Sie alle Graustufensensoren auf schwarze Linien aus und drücken Sie auf „Ja“, um Daten der schwarzen Linien zu erfassen.</string>
+    <string name="huanjingcaiji_duizhunbaise">Richten Sie alle Graustufensensoren auf den weißen Hintergrund aus und drücken Sie auf „Ja“, um Hintergrunddaten zu erfassen.</string>
+    <string name="huiduzhi">Graustufenwert</string>
+    <string name="pinghengche">Balance-Car</string>
+    <string name="pinghengchezhengzai">Balance-Car passt die Balance an...</string>
+    <string name="pinghengchenggong">Erfolgreich</string>
+    <string name="pinghengshibai">Fehler</string>
+    <string name="shexiangtou">Kamera</string>
+    <string name="shexiangtoushifouchahao">Überprüfen Sie, ob die Kamera erfolgreich angeschlossen wurde.</string>
+    <string name="shexiangtouzhengzai">Kamera wird geöffnet...</string>
+    <string name="zhinanzhenjiaozhun">Kompass kalibrieren</string>
+    <string name="zhinanzhenbazi">Drehen Sie den Roboter und kalibrieren Sie anschließend den Kompass.</string>
+    <string name="zhinanzhenwancheng">Wurde die Kompasskalibrierung durchgeführt?</string>
+    <string name="shengjigujian">Firmware-Upgrade</string>
+    <string name="shengjigujian_stm32">Upgrade auf aktuelle STM32-Firmware</string>
+    <string name="m_robot_blocked">Ich bin blockiert, platzieren Sie mich an einer anderen Position.</string>
+    <string name="back">Zurück</string>
+    <string name="wu_luyin">Keine Aufzeichnung</string>
+    <string name="wu_zhaopian">Kein Foto</string>
+    <string name="wu_skillplay">Kein Skill</string>
+    <string name="skill_play">Skill</string>
+    <string name="duomeiti">Multimedia</string>
+    <string name="activate">Activate</string>
+    <string name="protect">Protect</string>
+    <string name="zhinanzhenxuanzhuan">The robot will turn around and calibrates the compass!</string>
+
+    <string name="groupcontrol">GroupControl</string>
+    <string name="reset">Reset</string>
+    <string name="Group_ID_Set">Group ID Set</string>
+    <string name="groupID">Group ID</string>
+    <string name="confirm_group">Please confirm group ID</string>
+</resources>

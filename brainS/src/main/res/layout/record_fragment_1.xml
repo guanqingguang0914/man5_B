@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/record_fragment_fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:layerType="software">
+
+    <com.abilix.brain.ui.BrainViewPager
+        android:id="@+id/record_fragment_viewpager"
+        android:layout_width="195dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:clipChildren="false" />
+
+    <TextView
+        android:id="@+id/record_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/wu_luyin"
+        android:textColor="#ff0000"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+</FrameLayout>

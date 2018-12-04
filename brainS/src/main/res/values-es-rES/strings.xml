@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="wenjianchangducuowu">Error de longitud</string>
+    <string name="app_name">Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="rest">En reposo</string>
+    <string name="programming">Programación</string>
+    <string name="telecontrol">Control remoto</string>
+    <string name="soul">Soul</string>
+    <string name="delete">Eliminar página</string>
+    <string name="determine">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="record_page">Grabadora</string>
+    <string name="ls_record">Grabando</string>
+    <string name="record_success">Listo</string>
+    <string name="record_play">Reproduciendo</string>
+    <string name="record_play_success">Reproducción de grabación completa</string>
+    <string name="xiazaishibai">Error de descarga</string>
+    <string name="xiazaichenggong">Descarga completa</string>
+    <string name="anzhuangchenggong">Instalación correcta</string>
+    <string name="tishi">Solicitud</string>
+    <string name="shezhibrain">Vaya a Ajustes -> Sobre mi -> Desactivar control parental.</string>
+    <string name="wifi_stop">¿Desea desactivar la conexión de router y crear una zona activa?</string>
+    <string name="shi">Sí</string>
+    <string name="fou">No</string>
+    <string name="queren">Aceptar</string>
+    <string name="luyin">Grabar</string>
+    <string name="zhaopian">Foto</string>
+    <string name="huanjingcaiji">Recopilación ambiental</string>
+    <string name="shifouhuanjingcaiji">¿Desea recopilar las variables ambientales de nuevo?</string>
+    <string name="huanjingcaiji_duizhunheixian">Apunte todos los sensores de escala de grises a la línea negra y presione «Sí» para recopilar datos de línea negra.</string>
+    <string name="huanjingcaiji_duizhunbaise">Apunte todos los sensores de escala de grises al fondo blanco y presione «Sí» para recopilar datos de fondo blanco.</string>
+    <string name="huiduzhi">Valor de escala de grises</string>
+    <string name="pinghengche">Rueda de equilibrio</string>
+    <string name="pinghengchezhengzai">La rueda de equilibrio está ajustando el equilibrio...</string>
+    <string name="pinghengchenggong">Correcto</string>
+    <string name="pinghengshibai">Error</string>
+    <string name="shexiangtou">Cámara</string>
+    <string name="shexiangtoushifouchahao">Compruebe que la cámara está conectada correctamente.</string>
+    <string name="shexiangtouzhengzai">Abriendo cámara...</string>
+    <string name="zhinanzhenjiaozhun">Calibrar brújula</string>
+    <string name="zhinanzhenbazi">Gire el robot y, a continuación, calibre la brújula.</string>
+    <string name="zhinanzhenwancheng">¿Ha terminado de calibrar la brújula?</string>
+    <string name="shengjigujian">Actualizar firmware</string>
+    <string name="shengjigujian_stm32">Actualizar al firmware STM32 más reciente</string>
+    <string name="m_robot_blocked">Estoy bloqueado. Colóqueme en otro lugar.</string>
+    <string name="back">Anterior</string>
+    <string name="wu_luyin">No hay grabaciones</string>
+    <string name="wu_zhaopian">No hay fotos</string>
+    <string name="wu_skillplay">No hay habilidades</string>
+    <string name="skill_play">Habilidad</string>
+    <string name="duomeiti">Multimedia</string>
+    <string name="activate">Activate</string>
+    <string name="protect">Protect</string>
+    <string name="zhinanzhenxuanzhuan">The robot will turn around and calibrates the compass!</string>
+
+    <string name="groupcontrol">GroupControl</string>
+    <string name="reset">Reset</string>
+    <string name="Group_ID_Set">Group ID Set</string>
+    <string name="groupID">Group ID</string>
+    <string name="confirm_group">Please confirm group ID</string>
+</resources>

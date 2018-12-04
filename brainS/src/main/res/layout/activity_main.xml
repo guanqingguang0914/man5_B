@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:gif="http://schemas.android.com/apk/res-auto"
+             android:keepScreenOn="true">
+
+    <com.abilix.brain.ui.BrainViewPagerForBrainActivity
+        android:id="@+id/activity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"/>
+
+    <com.abilix.brain.ui.PathView
+        android:id="@+id/activity_pathview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:visibility="gone"/>
+
+    <SurfaceView
+        android:id="@+id/activity_sufaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <!--
+        <TextView
+            android:id="@+id/activity_vjc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:enabled="true"
+            android:padding="8dp"
+            android:textColor="#ff0000"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    -->
+    <RelativeLayout
+        android:id="@+id/activity_vjc_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/BLACK"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:longClickable="true"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/activity_vjc_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center"
+            android:longClickable="false"
+            android:padding="30dp"
+            android:textColor="@color/WHITE"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+    <!--
+        <TextView
+            android:id="@+id/activity_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:clickable="true"
+            android:enabled="true"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    -->
+    <RelativeLayout
+        android:id="@+id/activity_record_relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/BLACK"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/record_imageview_outside"
+            android:layout_width="176px"
+            android:layout_height="176px"
+            android:layout_centerInParent="true"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/record_imageview_inside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/activity_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/welcome_iamge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+
+    <com.abilix.brain.m.MyGiftView
+        android:id="@+id/mgv"
+        gif:paused="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</FrameLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="wenjianchangducuowu">Erreur de longueur</string>
+    <string name="app_name">Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="rest">Repos</string>
+    <string name="programming">Programmation</string>
+    <string name="telecontrol">Télécommande</string>
+    <string name="soul">Soul</string>
+    <string name="delete">Supprimer la page</string>
+    <string name="determine">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="record_page">Magnétoscope</string>
+    <string name="ls_record">Enregistrement</string>
+    <string name="record_success">Terminé</string>
+    <string name="record_play">Lecture</string>
+    <string name="record_play_success">Enregistrement terminé !</string>
+    <string name="xiazaishibai">Échec du téléchargement</string>
+    <string name="xiazaichenggong">Téléchargement terminé</string>
+    <string name="anzhuangchenggong">Installation réussie !</string>
+    <string name="tishi">Invite</string>
+    <string name="shezhibrain">Aller dans Paramètres -> Sur moi -> Désactiver le contrôle parental.</string>
+    <string name="wifi_stop">La connexion du routeur doit-elle être déconnectée pour créer un point d\'accès ?</string>
+    <string name="shi">Oui</string>
+    <string name="fou">Non</string>
+    <string name="queren">OK</string>
+    <string name="luyin">Enregistrer</string>
+    <string name="zhaopian">Photo</string>
+    <string name="huanjingcaiji">Collecte de l\'environnement</string>
+    <string name="shifouhuanjingcaiji">Voulez-vous collecter à nouveau les variables d\'environnement ?</string>
+    <string name="huanjingcaiji_duizhunheixian">Placez tous les capteurs de niveaux de gris pour viser la ligne noire, appuyez sur « Oui » pour collecter les données de la ligne noire</string>
+    <string name="huanjingcaiji_duizhunbaise">Placez tous les capteurs de niveaux de gris pour viser l\'arrière-plan blanc, puis appuyez sur « Oui » pour collecter les données de l\'arrière-plan</string>
+    <string name="huiduzhi">Valeur de niveaux de gris</string>
+    <string name="pinghengche">Roues</string>
+    <string name="pinghengchezhengzai">Les roues rétablissent l\'équilibre...</string>
+    <string name="pinghengchenggong">Réussite</string>
+    <string name="pinghengshibai">Échec</string>
+    <string name="shexiangtou">Caméra</string>
+    <string name="shexiangtoushifouchahao">Veuillez vérifier si la caméra est connectée avec succès ?</string>
+    <string name="shexiangtouzhengzai">Ouverture de la caméra...</string>
+    <string name="zhinanzhenjiaozhun">Étalonner la boussole</string>
+    <string name="zhinanzhenbazi">Veuillez faire pivoter le robot, puis étalonnez la boussole !</string>
+    <string name="zhinanzhenwancheng">L\'étalonnage de la boussole est-il terminé ?</string>
+    <string name="shengjigujian">Mettre à niveau le micrologiciel</string>
+    <string name="shengjigujian_stm32">Mettez à niveau vers la version du micrologiciel STM32 la plus récente </string>
+    <string name="m_robot_blocked">Je suis bloqué, veuillez me déplacer.</string>
+    <string name="back">Retour</string>
+    <string name="wu_luyin">Aucun enregistrement</string>
+    <string name="wu_zhaopian">Aucune photo</string>
+    <string name="wu_skillplay">Aucune aptitude</string>
+    <string name="skill_play">Aptitude</string>
+    <string name="duomeiti">Multimédia</string>
+    <string name="activate">Activate</string>
+    <string name="protect">Protect</string>
+    <string name="zhinanzhenxuanzhuan">The robot will turn around and calibrates the compass!</string>
+
+    <string name="groupcontrol">GroupControl</string>
+    <string name="reset">Reset</string>
+    <string name="Group_ID_Set">Group ID Set</string>
+    <string name="groupID">Group ID</string>
+    <string name="confirm_group">Please confirm group ID</string>
+</resources>
